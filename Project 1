@@ -1,0 +1,11 @@
+
+const kelvin = 293;
+// This should assign the number 293 to the value Kelvin
+const celsius = kelvin - 273;
+// the const Celsius has been assigned Kelvin - 273
+var fahrenheit = celsius * 9/5 +32
+// Converts Celsius to fahrenheit
+Math.floor(fahrenheit)
+// Should round down the celsius
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`)
+//This should just print the degrees 
